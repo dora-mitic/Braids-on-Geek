@@ -36,13 +36,24 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows
 # source .venv/bin/activate   # macOS / Linux
 pip install -r requirements.txt
-jupyter lab
+python -m ipykernel install --user --name braids-on-geek --display-name "Python (Braids on Geek)"
 ```
+
+The last line registers the project's Python with Jupyter, so the notebook uses the environment where numpy and sympy are installed. You only need it once.
+
+Then, whenever you want to play:
+
+```bash
+.venv\Scripts\jupyter-lab     # Windows
+# .venv/bin/jupyter-lab       # macOS / Linux
+```
+
+and open `braids.ipynb`.
 
 Run the tests with:
 
 ```bash
-pytest
+.venv\Scripts\python -m pytest
 ```
 
 ## Roadmap
