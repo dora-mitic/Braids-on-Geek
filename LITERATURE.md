@@ -1,11 +1,9 @@
 # Literature
 
-Everything I read, watched, and learned from while building this project.
 
-## Lecture notes
+## College Class Scripts
 
 - Mario Krnić, A. Dujella, *Skripta iz diskretne matematike 2*, Poglavlje 2: Algebarske strukture.
-  Groups, generators, permutations, and homomorphisms: the algebra this project builds on.
 
 ## Videos
 
