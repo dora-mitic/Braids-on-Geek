@@ -24,6 +24,7 @@ Other threads that came together:
 | File | What it does |
 | --- | --- |
 | `braids.py` | All the logic: braid words, permutations, Burau matrices. No plotting. |
+| `drawing.py` | Draws braids with matplotlib, with over/under crossings. |
 | `braids.ipynb` | The story, chapter by chapter, using `braids.py`. |
 | `tests/` | pytest tests for the logic. |
 | `LITERATURE.md` | Lecture notes, videos, and articles I learned from. |
@@ -48,7 +49,7 @@ pytest
 
 - [x] Repo setup
 - [x] Braid words, permutations, and the Burau matrix (numeric and symbolic), with tests
-- [ ] Drawing braids with matplotlib, including over/under crossings
+- [x] Drawing braids with matplotlib, including over/under crossings
 - [ ] Interactive interface with ipywidgets: generator buttons, undo, clear, presets
 - [ ] Notebook that tells the story
 - [ ] Stretch: simplifying words, braid closure, Alexander polynomial
