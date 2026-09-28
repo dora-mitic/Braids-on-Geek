@@ -1,4 +1,4 @@
-# The Braid Group
+# Braids on Geek
 
 A playground for building, drawing, and analysing mathematical braids in Python.
 
@@ -47,7 +47,7 @@ pytest
 ## Roadmap
 
 - [x] Repo setup
-- [ ] Braid words, permutations, and the Burau matrix (numeric and symbolic), with tests
+- [x] Braid words, permutations, and the Burau matrix (numeric and symbolic), with tests
 - [ ] Drawing braids with matplotlib, including over/under crossings
 - [ ] Interactive interface with ipywidgets: generator buttons, undo, clear, presets
 - [ ] Notebook that tells the story
