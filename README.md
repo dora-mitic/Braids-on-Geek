@@ -24,6 +24,7 @@ Other threads that came together:
 | File | What it does |
 | --- | --- |
 | `braids.py` | All the logic: braid words, permutations, Burau matrices. No plotting. |
+| `drawing.py` | Draws braids with matplotlib, with over/under crossings. |
 | `braids.ipynb` | The story, chapter by chapter, using `braids.py`. |
 | `tests/` | pytest tests for the logic. |
 | `LITERATURE.md` | Lecture notes, videos, and articles I learned from. |
@@ -35,20 +36,31 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows
 # source .venv/bin/activate   # macOS / Linux
 pip install -r requirements.txt
-jupyter lab
+python -m ipykernel install --user --name braids-on-geek --display-name "Python (Braids on Geek)"
 ```
+
+The last line registers the project's Python with Jupyter, so the notebook uses the environment where numpy and sympy are installed. You only need it once.
+
+Then, whenever you want to play:
+
+```bash
+.venv\Scripts\jupyter-lab     # Windows
+# .venv/bin/jupyter-lab       # macOS / Linux
+```
+
+and open `braids.ipynb`.
 
 Run the tests with:
 
 ```bash
-pytest
+.venv\Scripts\python -m pytest
 ```
 
 ## Roadmap
 
 - [x] Repo setup
 - [x] Braid words, permutations, and the Burau matrix (numeric and symbolic), with tests
-- [ ] Drawing braids with matplotlib, including over/under crossings
+- [x] Drawing braids with matplotlib, including over/under crossings
 - [ ] Interactive interface with ipywidgets: generator buttons, undo, clear, presets
 - [ ] Notebook that tells the story
 - [ ] Stretch: simplifying words, braid closure, Alexander polynomial
