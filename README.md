@@ -1,5 +1,7 @@
 # Braids on Geek
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dora-mitic/Braids-on-Geek/blob/main/braids.ipynb)
+
 A playground for building, drawing, and analysing mathematical braids in Python.
 
 You build a braid one crossing at a time and see it drawn with proper over/under crossings. Alongside the drawing you see its algebra: the braid word, the permutation of the strands, and the Burau matrix.
