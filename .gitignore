@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter notebook autosaves
+.ipynb_checkpoints/
+
+# Virtual environments (each person makes their own, never commit it)
+.venv/
+venv/
+env/
+
+# Generated output: images and exports can always be recreated by running the code
+output/
+*.png
+*.svg
+*.gif
+*.mp4
+!docs/**/*.png
+
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets, just in case
+.env
